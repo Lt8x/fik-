@@ -25,6 +25,7 @@ export default function RouteMe() {
       if (role === "admin") return router.push("/admin");
       if (role === "operator") return router.push("/operator");
       if (role === "driver") return router.push("/driver");
+      if (role === "venue") return router.push("/venue");
       if (role === "advertiser") return router.push("/advertiser");
       return router.push("/passenger");
     })();
